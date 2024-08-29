@@ -94,23 +94,18 @@ function GivePedUmbrellaWithEmote(uniquename)
     local animDict = "amb@world_human_drinking@coffee@male@base"
     local animName = "base"
 
-    -- Modeli yükle
     RequestModel(umbrellaModel)
     while not HasModelLoaded(umbrellaModel) do
         Wait(100)
     end
 
-    -- Önceki şemsiyeleri temizle
     RemovePedUmbrella(uniquename)
 
-    -- Yeni şemsiye oluştur
     local umbrella = CreateObject(umbrellaModel, 0.0, 0.0, 0.0, true, true, true)
     AttachEntityToEntity(umbrella, ped, GetPedBoneIndex(ped, 28422), 0.0, 0.0200, -0.0360, 0.0, 10.0, 0.0, true, true, false, true, 1, true)
 
-    -- Pedin şemsiye referansını güncelle
     pedData.umbrella = umbrella
 
-    -- Animasyonu başlat
     RequestAnimDict(animDict)
     while not HasAnimDictLoaded(animDict) do
         Wait(100)
