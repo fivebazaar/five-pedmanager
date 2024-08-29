@@ -5,14 +5,12 @@ game 'gta5'
 
 description "Advanced PedManager"
 author "FiveBazaar"
-version      '1.0'
+version  '1.0'
 repository ''
 
 dependencies {
     '/onesync',
 }
-
-
 
 client_scripts {
     'client.lua',
@@ -21,8 +19,4 @@ client_scripts {
 
 shared_scripts {
     '@ox_lib/init.lua',
-}
-
-server_scripts {
-    'server.lua',
 }
