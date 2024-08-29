@@ -200,5 +200,3 @@ AddEventHandler('onResourceStop', function(resourceName)
         cleanUpPeds()
     end
 end)
-
-lib.versionCheck('fivebazaar/five-pedmanager')
