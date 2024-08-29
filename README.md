@@ -12,7 +12,7 @@ A versatile FiveM script that allows you to manage pedestrians (peds) in your se
 
 ## 🎥 Video Demo
 
-Check out our [**video demo**](https://www.youtube.com) to see the Five-PedManager in action! Watch how easy it is to manage peds in your server.
+Check out our [**video demo**](https://youtu.be/mZAPSujzFog) to see the Five-PedManager in action! Watch how easy it is to manage peds in your server.
 
 ## 📖 Documentation
 
